@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>npmplease</title>
+        <meta name="description" content="NPM's missing command.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="npmplease" />
+        <meta name="twitter:description" content="NPM's missing command." />
+        <meta name="twitter:site" content="@neogeek" />
+        <meta name="twitter:image" content="http://npmplease.com/logo" />
+
+        <style>
+            body {
+                background-color: #2A333C;
+
+                font-size: 0.75em;
+            }
+
+            code {
+                position: absolute;
+                  top: 50%;
+                  left: 50%;
+                transform: translate(-50%, -50%);
+                width: 75vw;
+
+                color: #FFFFFF;
+                font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+                line-height: 1.5;
+
+                user-select: all;
+            }
+
+            .red {
+                color: #FF2D6D;
+            }
+
+            .teal {
+                color: #19F9D8;
+            }
+            @media (min-width: 30em) {
+                body {
+                    font-size: 1.25em;
+                }
+            }
+        </style>
+    </head>
+<body>
+    <code><span class="red">alias</span> npmplease=<span class="teal">"rm -rf node_modules/ && rm -f package-lock.json && npm install"</span></code>
+</body>
+</html>
