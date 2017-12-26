@@ -31,17 +31,21 @@
             }
 
             body {
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
                 background-color: #2A333C;
 
                 font-size: 0.75em;
             }
 
             code {
-                position: absolute;
-                  top: 50%;
-                  left: 50%;
-                transform: translate(-50%, -50%);
-                width: 75vw;
+                max-width: 75vw;
 
                 color: #FFFFFF;
                 font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
